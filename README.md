@@ -1,12 +1,12 @@
-# stm32f446_inmp441
-[WIP] stm32f446 inmp441 i2s and sai test code backup, only for fun, not good
+ï»¿# stm32f446_inmp441
+[WIP] nucleo-f446 stm32f446 inmp441 i2s and sai test code backup, only for fun, not good
 
 ## About sreenshot jpg (serial output)
 * Use Arduino IDE->Serial Plotter to see curve chart  
 
 ## usb-microphone, I2S  
 ```
-´®¿Ú²»ÓÃ½Ó£¬uart2¿ÚµÄRX£¬TX£¨¶ÔÓ¦°åÓÒ²àµÄTX/D1,RX/D0£©²»Òª½ÓÔÚÕë½ÅÉÏ£¬Ä¬ÈÏ±»Á¬½Óµ½st-linkµÄÐéÄâ´®¿ÚÉÏ  
+ä¸²å£ä¸ç”¨æŽ¥ï¼Œuart2å£çš„RXï¼ŒTXï¼ˆå¯¹åº”æ¿å³ä¾§çš„TX/D1,RX/D0ï¼‰ä¸è¦æŽ¥åœ¨é’ˆè„šä¸Šï¼Œé»˜è®¤è¢«è¿žæŽ¥åˆ°st-linkçš„è™šæ‹Ÿä¸²å£ä¸Š  
 usart2, TX, PA2(not need)==>TX/D1  
 usart2, RX, PA3(not need)==>RX/D0  
 
@@ -26,7 +26,7 @@ GND(right top 3)<->GND(left 3 top 7)
 
 ## nucleo-f446-ei-kws, SAI    
 ```
-´®¿Ú²»ÓÃ½Ó£¬uart2¿ÚµÄRX£¬TX£¨¶ÔÓ¦°åÓÒ²àµÄTX/D1,RX/D0£©²»Òª½ÓÔÚÕë½ÅÉÏ£¬Ä¬ÈÏ±»Á¬½Óµ½st-linkµÄÐéÄâ´®¿ÚÉÏ  
+ä¸²å£ä¸ç”¨æŽ¥ï¼Œuart2å£çš„RXï¼ŒTXï¼ˆå¯¹åº”æ¿å³ä¾§çš„TX/D1,RX/D0ï¼‰ä¸è¦æŽ¥åœ¨é’ˆè„šä¸Šï¼Œé»˜è®¤è¢«è¿žæŽ¥åˆ°st-linkçš„è™šæ‹Ÿä¸²å£ä¸Š  
 usart2, TX, PA2(not need)==>TX/D1  
 usart2, RX, PA3(not need)==>RX/D0  
 
