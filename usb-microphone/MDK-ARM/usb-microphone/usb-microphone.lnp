@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"usb-microphone\startup_stm32f446xx.o"
+"usb-microphone\main.o"
+"usb-microphone\stm32f4xx_it.o"
+"usb-microphone\stm32f4xx_hal_msp.o"
+"usb-microphone\stm32f4xx_hal_i2s.o"
+"usb-microphone\stm32f4xx_hal_i2s_ex.o"
+"usb-microphone\stm32f4xx_hal_rcc.o"
+"usb-microphone\stm32f4xx_hal_rcc_ex.o"
+"usb-microphone\stm32f4xx_hal_flash.o"
+"usb-microphone\stm32f4xx_hal_flash_ex.o"
+"usb-microphone\stm32f4xx_hal_flash_ramfunc.o"
+"usb-microphone\stm32f4xx_hal_gpio.o"
+"usb-microphone\stm32f4xx_hal_dma_ex.o"
+"usb-microphone\stm32f4xx_hal_dma.o"
+"usb-microphone\stm32f4xx_hal_pwr.o"
+"usb-microphone\stm32f4xx_hal_pwr_ex.o"
+"usb-microphone\stm32f4xx_hal_cortex.o"
+"usb-microphone\stm32f4xx_hal.o"
+"usb-microphone\stm32f4xx_hal_exti.o"
+"usb-microphone\stm32f4xx_hal_tim.o"
+"usb-microphone\stm32f4xx_hal_tim_ex.o"
+"usb-microphone\stm32f4xx_hal_uart.o"
+"usb-microphone\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "usb-microphone\usb-microphone.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "usb-microphone.map" -o usb-microphone\usb-microphone.axf
